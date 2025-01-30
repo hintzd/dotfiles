@@ -1,4 +1,4 @@
 .DS_Store
 .config/tmux/plugins/
 fzf/
-.config/oh-my-zsh/
+.config/.oh-my-zsh/
