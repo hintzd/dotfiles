@@ -1,7 +1,0 @@
-{
-  "title": "Search Recipes",
-  "description": "Search recipes on AllRecipes.com",
-  "author": "Your Name",
-  "arguments": [{ "type": "text", "name": "Search Query" }]
-}
-
