@@ -1,4 +1,5 @@
 .DS_Store
+.config/raycast/
 .config/tmux/plugins/
 fzf/
 .config/.oh-my-zsh/
