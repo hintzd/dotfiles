@@ -8,6 +8,8 @@ alias cd="z"
 alias v="nvim"
 alias c="clear"
 alias t="tmux"
+alias gst="git status"
+
 #alias python=python3 
 #alias ls='lsd --icon always --group-dirs first'
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
