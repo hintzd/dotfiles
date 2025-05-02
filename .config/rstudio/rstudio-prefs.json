@@ -30,5 +30,6 @@
         "console_right_on_top": true,
         "additional_source_columns": 0
     },
-    "editor_theme": "Nord Polar Night Aurora {rsthemes}"
+    "editor_theme": "Nord Polar Night Aurora {rsthemes}",
+    "jobs_tab_visibility": "shown"
 }

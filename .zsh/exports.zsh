@@ -26,6 +26,7 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 #export LDFLAGS="-L/opt/homebrew/opt/llvm/lib $LDFLAGS"
 #export CPPFLAGS="-I/opt/homebrew/opt/llvm/include $CPPFLAGS"
 #export CXXFLAGS="-stdlib=libc++"
+export PATH="$HOME/miniforge3/bin:$PATH"
 
 
 export CONFIG_DIR="$HOME/.config"

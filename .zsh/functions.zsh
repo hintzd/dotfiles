@@ -1,5 +1,9 @@
 # functions
 
+fn() {
+    find "$1" -type f "$2"
+}
+
 pball() {
     find "$1" -type f -print0 | xargs -0 -I {} sh -c 'echo "\n>>> {}" && cat "{}"' | pbcopy
 }
