@@ -1,7 +1,7 @@
 # functions
 
 fn() {
-    find "$1" -type f "$2"
+    find "$1" -type f -name "$2"
 }
 
 pball() {
