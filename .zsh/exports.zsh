@@ -26,13 +26,18 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 #export LDFLAGS="-L/opt/homebrew/opt/llvm/lib $LDFLAGS"
 #export CPPFLAGS="-I/opt/homebrew/opt/llvm/include $CPPFLAGS"
 #export CXXFLAGS="-stdlib=libc++"
+
+export PATH="$PATH:/path/to/positron"
 export PATH="$HOME/miniforge3/bin:$PATH"
 
 
 export CONFIG_DIR="$HOME/.config"
 # Other dependencies
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/shims:$PATH"
+#
+# Remove pyenv from PATH (keep system Python)
+export PATH=$(echo $PATH | sed 's|[^:]*pyenv[^:]*:||g')
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/shims:$PATH"
 export EDITOR=nvim
 export VISUAL=nvim
 

@@ -2,6 +2,8 @@
 
 #alias rstudio='/Applications/RStudio.app/Contents/MacOS/RStudio'
 alias py=python
+alias python=python3
+alias pip=pip3
 alias ipy=ipython
 #alias cat="bat"
 alias cd="z"

@@ -1,5 +1,5 @@
 {
-    "initial_working_directory": "~",
+    "initial_working_directory": "~/Library/CloudStorage/Dropbox/Developer/hello_world",
     "posix_terminal_shell": "zsh",
     "panes": {
         "quadrants": [
@@ -31,5 +31,7 @@
         "additional_source_columns": 0
     },
     "editor_theme": "Nord Polar Night Aurora {rsthemes}",
-    "jobs_tab_visibility": "shown"
+    "jobs_tab_visibility": "shown",
+    "highlight_r_function_calls": true,
+    "rainbow_parentheses": true
 }
